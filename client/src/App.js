@@ -10,7 +10,7 @@ import UpdateActivity from "./Components/Activity/CRUD/Update/UpdateActivity"
 import About from "./Components/About/About"
 import Back from "./Components/Back/Back"
 import axios from 'axios';
-axios.defaults.baseURL ="http://localhost:3001/";
+axios.defaults.baseURL ="https://countries-pi-production-50ff.up.railway.app";
 
 function App() {
   return (
