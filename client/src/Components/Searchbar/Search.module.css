@@ -1,0 +1,38 @@
+.bar {
+    background: url("../../img/Searchbar.png")
+      no-repeat 4px 3px;
+    background-size: 30px;
+    width: 40px;
+    border: transparent;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    transition: 0.5s all;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    background-color: #0c2636;
+  }
+  
+  .bar:hover {
+    width: 300px;
+  
+    background-size: 30px;
+    padding: 10px 10px 10px 50px;
+    background-color: #0c2636;
+    color: #03e9f4;
+    box-shadow: 0 0 5px #03e9f4, 0 0 5px #03e9f4, 0 0 5px #03e9f4;
+  }
+  .bar:focus {
+    width: 300px;
+    color: #03e9f4;
+  
+    background-size: 30px;
+    padding: 10px 10px 10px 50px;
+    background-color: #0c2636;
+    color: #03e9f4;
+    box-shadow: 0 0 5px #03e9f4, 0 0 5px #03e9f4, 0 0 5px #03e9f4;
+  }
+  
+  input::placeholder {
+    padding-left: 12px; 
+    color: #03e9f4; 
+  }

@@ -1,0 +1,317 @@
+.containerAllCreate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .containerFrom {
+    background:#0c2636;
+    border: 2px solid #03bcf4;
+    padding: 40px;
+    border-radius: 30px;
+    width: 240px;
+    box-shadow: 2px 2px 25px #03bcf4;
+    color:#03bcf4
+  }
+  
+  .titleFroms {
+    
+    left: 6em;
+    font-size: 2em;
+    letter-spacing: 5px;
+    color: #0e3742;
+    text-transform: uppercase;
+    width: 65%;
+    text-align: center;
+    
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 6s linear infinite;
+    margin-bottom: 2em;
+  }
+  
+  .containerDataSelect {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #03bcf4;
+  }
+  
+  .errors {
+    color: firebrick;
+    font-size: small;
+    margin-top: 0px;
+    margin-left: 15px;
+    font-style: italic;
+  }
+  
+  .sinError {
+    color: #ffffff00;
+    font-size: small;
+    margin-top: 0px;
+    margin-left: 15px;
+    font-style: italic;
+  }
+  
+  .inputData {
+    font-family: "Courier New",monospace;
+    width: 240px;
+    border: transparent;
+    border-bottom: solid 1px  #03bcf4;
+    outline: none;
+    background-color: transparent;
+    color: #03bcf4
+  }
+  
+  .inputDataDuration {
+    font-family: "Courier New",monospace;
+    width: 190px;
+    border: transparent;
+    border-bottom: solid 1px #03bcf4;
+    color: #03bcf4;
+    outline: none;
+    background-color: transparent;
+  }
+  label {
+    margin-top: 0;
+    margin-bottom: -15px;
+    font-size: medium;
+    color: #03bcf4;
+    font-weight: 500;
+  }
+  .pTitle {
+    margin-top: 0;
+    margin-bottom: -15px;
+    font-size: medium;
+    color: #03bcf4;
+    font-weight: 700;
+  }
+  
+  /* //------------------------------------------------------------------ */
+  .ContainerCountrySelectAll {
+    width: 90%;
+    margin: 0% 3% 0% 3%;
+    right:20%
+  }
+  
+  .xxx {
+    width: 80%;
+    display: flex;
+  }
+  
+
+
+  .ContainerCountrySelect {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color:#03bcf4;
+    
+    
+  }
+  .countrySelect img:hover{
+    border: 2px solid #03bcf4;
+    color: #03bcf4;
+    background-color: #0c2636;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    transition: 0.2s ease-in;
+  }
+
+  .namecountrySelect:hover{
+    border: 2px solid #03bcf4;
+    color: #03bcf4;
+    background-color: #0c2636;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    transition: 0.2s ease-in;
+  }
+  .countrySelect {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    color: #03bcf4;
+    margin: 10px;
+    border-radius: 15px 0px 0px 15px;
+    margin: 2em;
+    padding: 2em;
+  }
+  
+  .countrySelect img {
+    object-fit: cover;
+    height: 100px;
+    width: 200px;
+    border-radius: 15px 0px 0px 15px;
+  }
+  
+  .namecountrySelect {
+    font-size: small;
+    font-weight: 700;
+    background-color: #fff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+  }
+  
+  .buttonSubmit {
+    padding: 10px 30px; /*forma de boton */
+    color: #000000;
+    transition: 0.5s;
+    letter-spacing: 3px; /*espacio entre letras */
+    
+    border-radius: 50px;
+    background-color: #03e9f4;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+  }
+  .buttonSubmit:hover {
+    border: 2px solid #03bcf4;
+    color: #03bcf4;
+    background-color: #0c2636;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    transition: 0.2s ease-in;
+  }
+  .buttonSubmit:disabled {
+    padding: 10px 30px; /*forma de boton */
+    color: #141414;
+    letter-spacing: 3px; /*espacio entre letras */
+    border-radius: 50px;
+    background-color: rgb(105, 105, 105);
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    box-shadow: 0 0 0 transparent;
+  }
+  .buttonSubmit:disabled:hover {
+    background: rgb(105, 105, 105);
+    color: #050801;
+  }
+  
+  .butonX {
+    color: #fff;
+    background-color: darkred;
+    height: 100px;
+    border-radius: 0px 15px 15px 0px;
+    border: transparent;
+  }
+  .butonX:hover {
+    box-shadow: 0 0 80px red, 0 0 30px FireBrick, 0 0 6px rgb(75, 2, 2);
+  }
+  
+  .titleListCountries {
+    position: relative;
+    left: 6em;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    color: #0e3742;
+    text-transform: uppercase;
+    width: 75%;
+    text-align: center;
+    
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 6s linear infinite;
+    
+    
+   }
+   @keyframes animate{
+  
+     0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+   
+         color: #fff;
+   
+         text-shadow: none;
+   
+     }
+   
+     18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%{
+   
+         color: #fff;
+   
+         text-shadow: 0 0 10px #03bcf4,
+   
+         0 0 20px #03bcf4,
+   
+         0 0 40px #03bcf4,
+   
+         0 0 80px #03bcf4,
+   
+         0 0 160px #03bcf4;
+   
+     }
+ } 
+
+ .backHomeActivity {
+
+  padding: 10px 20px; /*forma de boton */
+  color: #03e9f4;
+  transition: 0.5s;
+  letter-spacing: 1px; /*espacio entre letras */
+  box-shadow: 0 0 5px #03e9f4, 0 0 5px #03e9f4, 0 0 5px #03e9f4;
+  border-radius: 100px 0px 0px 100px;
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+
+.backHomeActivity:hover {
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 700px #03e9f4;
+}
+.boton {
+  border: 1px solid #03e9f4;
+  border-radius: 50%;
+  background: none;
+  background-color: #03e9f4;
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+
+.boton:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  color: #03e9f4;
+  background-color: #17181c;
+  transform: scale(1.08);
+  transition: 0.2s ease-in;
+  
+}
+
+.img {
+  padding-top: 5px;
+  width: 35px;
+
+}
+  
+  @media screen and (max-width: 750px) {
+    .titleFroms,
+    .titleListCountries {
+      font-size: 15px;
+    }
+    .containerAllCreate {
+    }
+    .xxx {
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+    }
+    .containerFrom {
+      display: flexbox;
+      padding: 20px 30px 10px 30px;
+    }
+  }
+  

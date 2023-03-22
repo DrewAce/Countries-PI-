@@ -1,0 +1,93 @@
+
+ 
+ .text{
+
+   
+   font-size: 3em;
+   letter-spacing: 15px;
+   color: #0e3742;
+   text-transform: uppercase;
+   width: 100%;
+   text-align: center;
+   
+   line-height: 0.70em;
+   outline: none;
+   animation: animate 6s linear infinite;
+   z-index: 2;
+   
+ }
+ 
+ 
+ @keyframes animate{
+ 
+   0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+ 
+       color: #fff;
+ 
+       text-shadow: none;
+ 
+   }
+ 
+   18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%{
+ 
+       color: #fff;
+ 
+       text-shadow: 0 0 10px #03bcf4,
+ 
+       0 0 20px #03bcf4,
+ 
+       0 0 40px #03bcf4,
+ 
+       0 0 80px #03bcf4,
+ 
+       0 0 160px #03bcf4;
+ 
+   }
+ 
+ }
+ 
+ .buttonLogin {
+   width: 6em;
+   font-size: 1.5em;
+   font-weight: bold;
+   padding: 13px 13px;
+   border-radius: 10px;
+   border: none;
+   color: #03bcf4;
+   background-color: #0e3742;
+   font-family:"Courier New",monospace;
+   -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+ }
+ 
+ .buttonLogin:hover {
+   border: 2px solid #03bcf4;
+   color: #03bcf4;
+   background-color: #0c2636;
+   cursor: pointer;
+   -webkit-box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+   -moz-box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+   box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+   transition: 0.2s ease-in;
+ }
+ 
+ @keyframes animation {
+   0% {
+     transform: scale(1);
+   }
+   50% {
+     transform: scale(1.09);
+   }
+   100% {
+     transform: scale(1);
+   }
+ } 
+
+ .countryFail {
+    font-family: arial;
+    color: red;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    line-height: 0.70em;
+    outline: none;
+    text-shadow: 0 0 80px red, 0 0 30px FireBrick, 0 0 6px rgb(75, 2, 2);
+  }
+  

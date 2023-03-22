@@ -1,0 +1,141 @@
+
+.contenedor {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.posicion {
+    margin: 0;
+    padding: 60px;
+    width: 50em;
+    height: 17em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 1em;
+    background: linear-gradient(
+        135deg,
+        rgba(255,255,255,0.1),
+        rgba(255,255,255,0.1)
+        );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px);
+    border: 1px solid rgba(255,255,255,0.1);
+    -webkit-box-shadow: 0px 0px 21px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 21px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,1);
+    border-radius: 20px;
+    
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.b {
+    color:#03e9f4
+}
+
+.name {
+    letter-spacing: px;
+    color: rgb(253, 244, 244);
+    display: block;
+    font-family:'Aubrey', monospace;
+    font-size: 55px;
+    margin: 0;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 25ch;
+    text-shadow: 5px 5px 5px #000000;
+
+    animation: handwriting 2s steps(30) forwards;
+    overflow: hidden;
+}
+
+@keyframes handwriting {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+
+/* @keyframes blink {
+    50% {border-color: transparent;}
+} */
+
+.about {
+    letter-spacing: 2px;
+    font-family: "Courier New",monospace;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+
+
+.containerRedes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.boton {
+    border: 1px solid #03e9f4;
+    border-radius: 50%;
+    background: none;
+    background-color: #03e9f4;
+}
+
+.boton:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    color: #03e9f4;
+    background-color: #17181c;
+    transform: scale(1.08);
+    transition: 0.2s ease-in;
+    
+}
+
+.img {
+    padding-top: 5px;
+    width: 35px;
+
+}
+
+
+
+@media (max-width: 640px) { 
+    
+    .contenedor{
+        margin-top: 20px;
+         padding: 0;
+         width: 99%;
+    }
+
+    .posicion {
+        padding: 10px;
+        height: 450px;
+        width: 85%;
+    }
+
+    .title {
+        width: 100%;
+        display: flex;
+    }
+    
+    .name {
+        font-size: 30px;
+        white-space:break-spaces;
+        animation: none;
+        border-right: 0;
+    }
+    
+
+}

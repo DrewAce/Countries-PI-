@@ -1,0 +1,33 @@
+.select {
+    background-color: #0e3742;
+    color: white;
+    width: 150px;
+    font-size: 15px;
+    outline: none;
+  }
+  
+  .select:hover {
+    border: 2px solid #03bcf4;
+    color: #03bcf4;
+    background-color: #0c2636;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    transition: 0.2s ease-in;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .select:hover {
+      transform: scale(1);
+      box-shadow: 0 0 20px #7c5fe4;
+  
+      border: none;
+    }
+  
+    .filtros {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }

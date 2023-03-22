@@ -1,0 +1,144 @@
+.containerAll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .table {
+    background-color: white;
+  }
+  .containerListActivityTitle {
+    display: flex;
+    background-image: radial-gradient(
+      at right center,
+      #0e3742,
+      rgb(26, 74, 114)
+    );
+  }
+  .containerListActivity {
+    display: flex;
+  }
+  
+  .pTitle {
+    color: white;
+    font-weight: 700;
+  }
+  .Title {
+    min-width: 80px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+  }
+  
+  .pDato {
+    font-weight: 400;
+    font-style: italic;
+  }
+  .pDatoName {
+    font-weight: 400;
+    font-style: italic;
+    margin-left: 25px;
+  }
+  .listA {
+    font-family: 'Courier New', sans-serif;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    width: 80px;
+  }
+  /* /-----------------------------------------NAME */
+  .TitleName {
+    
+    border: 1px solid;
+    min-width: 100px;
+    width: 430px;
+  }
+  .listAName {
+    font-family: 'Courier New', sans-serif;
+    display: flex;
+    align-items: flex-start;
+    width: 430px;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+  }
+  /* //----------------------------------------BOTONES */
+  .edit {
+    transition: 0.5s;
+  
+    background-image: radial-gradient(
+      at center center,
+      rgb(18, 103, 160),
+      rgb(14, 167, 194)
+    );
+    width: 50%;
+    height: 100%;
+    border: transparent;
+  }
+  .edit:hover {
+    box-shadow: 0px 0px 15px rgb(127, 208, 255), 0px 0px 25px rgb(0, 55, 128),
+      0px 0px 55px rgb(0, 93, 100);
+    border: 1px solid rgb(127, 178, 255);
+  }
+  
+  .delete {
+    transition: 0.5s;
+  
+    background-image: radial-gradient(
+      at center center,
+      rgb(255, 0, 0),
+      rgb(128, 0, 0)
+    );
+    width: 50%;
+    height: 100%;
+    border: transparent;
+  }
+  
+  .delete:hover {
+    box-shadow: 0px 0px 15px rgb(255, 123, 123), 0px 0px 25px red,
+      0px 0px 55px darkred;
+    border: 1px solid rgb(255, 174, 174);
+  }
+  
+  @media screen and (max-width: 400px) {
+    .TitleName {
+      width: 120px;
+    }
+    .listAName {
+      width: 120px;
+    }
+  
+    .TitleName,
+    .Title,
+    .listAName,
+    .listA {
+      font-size: 9pt;
+    }
+    .Title,
+    .listA {
+      min-width: none;
+      width: 60px;
+      min-width: 60px;
+    }
+  }
+  @media screen and (max-width: 750px) and (min-width: 401px) {
+    .TitleName {
+      width: 180px;
+    }
+    .listAName {
+      width: 180px;
+    }
+  
+    .TitleName,
+    .Title,
+    .listAName,
+    .listA {
+      font-size: small;
+    }
+    .Title,
+    .listA {
+      min-width: none;
+      width: 70px;
+      min-width: 70px;
+    }
+  }
