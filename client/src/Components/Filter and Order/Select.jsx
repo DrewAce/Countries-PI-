@@ -9,7 +9,7 @@ const Select = (props) => {
     props.setCurrentPage(1);
     if (option === "Continents" || option === "Activities")
       return dispatch(getCountries());
-    if (option !== "None") return dispatch(props.funtion(option));
+    if (option !== "None") return dispatch(props.function(option));
   };
 
   return (

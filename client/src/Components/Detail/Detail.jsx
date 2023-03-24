@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 import styles from "./Detail.module.css"
 import CardsActivity from './CardsActivity'
 import imgHome from '../../img/whiteHome.png'
-
+import imgPlus from '../../img/plus.png'
 
 const Detail = () => {
   const { id } = useParams();
@@ -22,6 +22,7 @@ const Detail = () => {
       <h1 className={styles.nameCountry}>{country.name}</h1>
       <div>
       <Link to ='/home'><button className={styles.boton}><img src={imgHome} alt="Home" className={styles.img}></img></button></Link>
+      <Link to ='/activity/create'><button className={styles.boton2}><img src={imgPlus} alt="Home" className={styles.img}></img></button></Link>
       </div>
       <div className={styles.containerDetail}>
         <div className={styles.containerflags}>

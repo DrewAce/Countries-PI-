@@ -19,15 +19,17 @@ const Filter = ({ activities, setCurrentPage }) => {
   return (
     <div className={styles.filtros}>
       <Select
-        funtion={getCountriesByContinents}
+        function={getCountriesByContinents}
         list={continents}
         setCurrentPage={setCurrentPage}
       />
+      <div className={styles.filtros}>
       <Select
-        funtion={getCountriesByActivities}
+        function={getCountriesByActivities}
         list={activitiesList}
         setCurrentPage={setCurrentPage}
       />
+      </div>
     </div>
   );
 };

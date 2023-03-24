@@ -9,12 +9,13 @@
    text-transform: uppercase;
    width: 100%;
    text-align: center;
-   
+
    line-height: 0.70em;
    outline: none;
    animation: animate 6s linear infinite;
    z-index: 2;
-   
+   pointer-events: none;
+ 
  }
  
  

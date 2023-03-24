@@ -41,10 +41,10 @@ const Home = () => {
 
   return (
     <div>
-      
+      <div>
       <Bar activities={activities} setCurrentPage={setCurrentPage} />
-  
-      <h1 className={styles.text}>COUNTRIES</h1>
+      </div>
+      <h1 className={styles.text}>COUNTRIES</h1> 
       {!countries.length ? (
         <div>
      
@@ -66,6 +66,7 @@ const Home = () => {
           <p></p>
           <p></p>
           <Cards countries={currentCountries} />
+          
         </div>
       )}
     </div>

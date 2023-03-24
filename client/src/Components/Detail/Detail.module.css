@@ -352,3 +352,25 @@
     width: 35px;
 
 }
+
+.boton2 {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  border: 1px solid #03e9f4;
+  border-radius: 50%;
+  background: none;
+  background-color: #03e9f4;
+  position: absolute;
+  
+}
+
+.boton2:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  color: #03e9f4;
+  background-color: #17181c;
+  transform: scale(1.08);
+  transition: 0.2s ease-in;
+  
+}

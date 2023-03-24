@@ -9,15 +9,17 @@ const Order = ({ setCurrentPage }) => {
   return (
     <div className={styles.filtros}>
       <Select
-        funtion={orderAsdDes}
+        function={orderAsdDes}
         list={AscDsc}
         setCurrentPage={setCurrentPage}
       />
+      <div className={styles.filtros}>   
       <Select
-        funtion={orderPopulation}
+        function={orderPopulation}
         list={population}
         setCurrentPage={setCurrentPage}
       />
+      </div>
     </div>
   );
 };
