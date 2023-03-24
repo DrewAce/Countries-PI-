@@ -7,8 +7,9 @@ import Detail from "./Components/Detail/Detail"
 import Activity from "./Components/Activity/Activity"
 import CreateActivity from "./Components/Activity/CRUD/Create/CreateActivity"
 import UpdateActivity from "./Components/Activity/CRUD/Update/UpdateActivity"
+
 import About from "./Components/About/About"
-import Back from "./Components/Back/Back"
+
 import axios from 'axios';
 axios.defaults.baseURL ="https://countries-pi-production-7471.up.railway.app";
 

@@ -1,0 +1,184 @@
+.normalBar {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', sans-serif;
+    font-size: 20px;
+    background-color: #0e3742;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    
+    z-index: 9999;
+  }
+  
+  .opctionMenu {
+    width: 150px;
+  }
+  .opctionMenu:hover {
+    scale: 1.1;
+    text-shadow: 0px 0px 15px #03e9f4, 0px 0px 30px #03e9f4, 0px 0px 40px #03e9f4,
+      0px 0px 50px #03e9f4;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    width: fit-content;
+    z-index: 9999;
+  }
+  .opctionMenu:hover > .submenu {
+    display: block;
+  }
+  
+  .pTitleMenu {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    transition: 0.16s ease-in;
+    margin-top: 15px;
+  }
+  .containerSearchBarx {
+    margin-left: 1%;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .containerOptions {
+    width: 57%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .buttonLogin {
+    width: 7em;
+    height: fit-content;
+    font-size: small;
+    font-weight: bold;
+    padding: 13px 13px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    color: #03bcf4;
+    background-color: #06242c;
+    font-family:"Courier New",monospace;
+    
+  }
+  
+  .buttonLogin:hover {
+    border: 2px solid #03bcf4;
+    color: #03bcf4;
+    background-color: #0c2636;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    transition: 0.2s ease-in;
+  }
+  
+  @keyframes animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.09);
+    }
+    100% {
+      transform: scale(1);
+    }
+  } 
+  .buttonMini {
+    display: none;
+  }
+  .boton {
+    border: 1px solid #03e9f4;
+    border-radius: 50%;
+    background: none;
+    background-color: #03e9f4;
+}
+
+.boton:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    color: #03e9f4;
+    background-color: #17181c;
+    transform: scale(1.08);
+    transition: 0.2s ease-in;
+    
+}
+
+.img {
+    padding-top: 5px;
+    width: 35px;
+
+}
+  /* //------------------------------------------------------------------MINI MENU */
+  
+  @media screen and (max-width: 750px) {
+    .normalBar {
+      background-color: #0e3742;
+  
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 0;
+      border-radius: 0;
+      height: 50px;
+      
+      transform: all 0.5s;
+      z-index: 9999;
+    }
+    .containerSearchBarx {
+      margin-top: 8px;
+      width: 95%;
+    }
+    .opctionMenu {
+      display: none;
+    }
+    .buttonLogin {
+      display: none;
+    }
+    .opctionMenu:hover {
+      scale: 1;
+      text-shadow: 0px 0px 15px #03e9f4, 0px 0px 30px #03e9f4,
+        0px 0px 40px #03e9f4, 0px 0px 50px #03e9f4;
+    }
+  
+    .btn_select {
+      background: url("https://imgur.com/VbcTojM.png") no-repeat;
+      cursor: pointer;
+      position: absolute;
+      height: 30px;
+      width: 30px;
+      right: 10px;
+      top: 5px;
+    }
+    .submenu {
+      width: 100%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+  
+    .normalBar:hover > .opctionMenu {
+      display: block;
+      background-color: #0e3742;
+  
+      width: 100%;
+      position: relative;
+    }
+    .normalBar:hover > .buttonLogin {
+      background-color: #105e74;
+      position: relative;
+      display: block;
+      width: 93%;
+    }
+  }
