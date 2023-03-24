@@ -1,11 +1,9 @@
 import React from 'react'
 import Cards from "../Cards/Cards"
 import Bar from "../Bar/Bar"
-
 import { useEffect } from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 import {getCountries, getActivities} from '../../Redux/actions'
-import Footer from "../Footer/Footer";
 import styles from "./Home.module.css"
 import Pagination from "../Pagination/Pagination"
 import { useState } from 'react'
@@ -66,7 +64,7 @@ const Home = () => {
           <p></p>
           <p></p>
           <Cards countries={currentCountries} />
-          <Footer activities={activities} setCurrentPage={setCurrentPage} />
+          
         </div>
       )}
     </div>
