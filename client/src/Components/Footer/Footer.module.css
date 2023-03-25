@@ -1,0 +1,110 @@
+.normalBar {
+   
+        background-color: #0e3742;
+        color: #ffff;
+        position: fixed;
+        width: 100%;
+        bottom: 0 !important;
+        padding-top: 10px !important;
+        padding-bottom: 8px !important ;
+        display: flex;
+        text-align: center !important;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        font-family: 'Courier New', sans-serif;
+        gap: 9em;
+      
+  }
+
+  .boton {
+    border: 1px solid #03e9f4;
+    border-radius: 50%;
+    background: none;
+    background-color: #03e9f4;
+}
+
+.boton:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    color: #03e9f4;
+    background-color: #17181c;
+    transform: scale(1.08);
+    transition: 0.2s ease-in;
+    
+}
+
+.img {
+    padding-top: 5px;
+    width: 35px;
+
+}
+
+
+ 
+.text{
+
+   
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: #0e3742;
+    text-transform: uppercase;
+   
+    text-align: center;
+ 
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 6s linear infinite;
+    z-index: 2;
+    pointer-events: none;
+  
+  }
+  
+  
+  @keyframes animate{
+  
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+  
+        color: #fff;
+  
+        text-shadow: none;
+  
+    }
+  
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%{
+  
+        color: #fff;
+  
+        text-shadow: 0 0 10px #03bcf4,
+  
+        0 0 20px #03bcf4,
+  
+        0 0 40px #03bcf4,
+  
+        0 0 80px #03bcf4,
+  
+        0 0 160px #03bcf4;
+  
+    }
+  
+  }
+
+  
+  @media screen and (max-width: 750px) {
+    .normalBar {
+      background-color: #0e3742;
+  
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 0;
+      border-radius: 0;
+      height: 50px;
+      margin-bottom: 20px;
+      transform: all 0.5s;
+      z-index: 9999;
+    }
+
+  
+}
+  
