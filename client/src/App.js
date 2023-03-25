@@ -27,7 +27,7 @@ function App() {
       <Route exact path= "/about" element={<About/>} />
       </Routes>
       {
-       location.pathname !== '/' && (
+       location.pathname !== '/' &&  location.pathname !== '/about'&& (
         <Footer/>
                  
       )}

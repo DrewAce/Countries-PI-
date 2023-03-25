@@ -11,7 +11,7 @@
     height: 85px;
     position: absolute;
     bottom: 0;
-    gap: 6em
+    gap: 5em
   }
   .normalFooter > * {
     flex: 1 1 auto;
