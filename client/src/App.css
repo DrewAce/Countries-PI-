@@ -1,6 +1,6 @@
 .App{
   padding: 0;
-  padding-bottom: 0.1px;
+  padding-bottom: 100px;
    min-height: 100vh;
    min-width: 100vw;
    text-align: center;
@@ -8,6 +8,7 @@
    background-repeat:no-repeat;
    background-attachment: fixed;
    background-size:cover;
+   position: relative;
 }
 
 @media (max-width: 640px){

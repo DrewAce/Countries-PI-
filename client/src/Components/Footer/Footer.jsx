@@ -9,7 +9,7 @@ const Footer = () => {
     let year = date.getFullYear();
   return (
     <div>
-        <div className={style.normalBar}>
+        <div className={style.normalFooter}>
         <h3 className={style.text}>Countries App</h3>
         <h3 className={style.text}>Copyright © {year} </h3>
         <a href='https://github.com/DrewAce' target='__blank'><button className={style.boton}><img src={imgGit} alt="GitHub" className={style.img}></img></button></a>   
