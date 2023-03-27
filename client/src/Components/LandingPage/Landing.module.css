@@ -127,3 +127,25 @@
   
 
 
+  @media (max-width: 768px) {
+    .text {
+      font-size: 3em;
+    }
+    
+    .buttonLogin {
+      font-size: 1.2em;
+      padding: 10px 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .text {
+      font-size: 2em;
+      letter-spacing: 10px;
+    }
+    
+    .buttonLogin {
+      font-size: 1em;
+      padding: 8px 8px;
+    }
+  }
