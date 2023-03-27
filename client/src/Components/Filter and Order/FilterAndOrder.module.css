@@ -20,7 +20,7 @@
   
   @media screen and (max-width: 750px) {
     .select{
-      width: 100px;
+      width: 110px;
     }
     .select:hover {
       transform: scale(1);

@@ -6,7 +6,7 @@
     flex-wrap: wrap;
   }
   .table {
-    background-color: white;
+    background-color: rgb(20, 120, 128);
   }
   .containerListActivityTitle {
     display: flex;
@@ -32,12 +32,12 @@
   }
   
   .pDato {
-    font-weight: 400;
-    font-style: italic;
+    font-weight: 700;
+    color: #fff
   }
   .pDatoName {
-    font-weight: 400;
-    font-style: italic;
+    font-weight: 700;
+    color: #fff;
     margin-left: 25px;
   }
   .listA {
@@ -102,10 +102,10 @@
   
   @media screen and (max-width: 400px) {
     .TitleName {
-      width: 120px;
+      width: 100px;
     }
     .listAName {
-      width: 120px;
+      width: 100px;
     }
   
     .TitleName,
@@ -123,10 +123,10 @@
   }
   @media screen and (max-width: 750px) and (min-width: 401px) {
     .TitleName {
-      width: 180px;
+      width: 150px;
     }
     .listAName {
-      width: 180px;
+      width: 150px;
     }
   
     .TitleName,
@@ -138,7 +138,48 @@
     .Title,
     .listA {
       min-width: none;
-      width: 70px;
-      min-width: 70px;
+      width: 50px;
+      min-width: 50px;
     }
   }
+
+  .countryFail {
+    font-size: 20px;
+   letter-spacing: 5px;
+   color: #0e3742;
+   text-transform: uppercase;
+   width: 75%;
+   
+   
+   
+   outline: none;
+   animation: animate3 6s linear infinite;
+   margin: 0 auto;
+   margin-bottom: 20px;
+  }
+  @keyframes animate3{
+ 
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+  
+        color: #fff;
+  
+        text-shadow: none;
+  
+    }
+  
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%{
+  
+        color: #fff;
+  
+        text-shadow: 0 0 10px #f40303,
+  
+        0 0 20px #f40303,
+  
+        0 0 40px #f40303,
+  
+        0 0 80px #f40303,
+  
+        0 0 160px #f40303;
+  
+    }
+} 

@@ -308,10 +308,18 @@
       width: 100%;
       align-items: center;
       flex-direction: column;
+      
     }
     .containerFrom {
+      margin-top: 30px;
       display: flexbox;
       padding: 20px 30px 10px 30px;
     }
+    .ContainerCountrySelect {
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
   }
   

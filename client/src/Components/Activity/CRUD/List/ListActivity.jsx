@@ -76,7 +76,7 @@ const ListActivity = () => {
         </div>
       ) : (
         <div>
-          <h1 className="countryFail">There are no registered activities</h1>
+          <h1 className={styles.countryFail}>Couldn't find any registered activity</h1>
         </div>
       )}
     </div>
