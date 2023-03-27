@@ -35,7 +35,7 @@ const Bar = ({activities, setCurrentPage}) => {
           <br></br>
         </div>
         <Link to="/activity/" className={styles.buttonLogin}>
-          <span>ADD ACTIVITY</span>
+          <span>GO TO ACTIVITIES</span>
         </Link>
         <br></br>
       </div>

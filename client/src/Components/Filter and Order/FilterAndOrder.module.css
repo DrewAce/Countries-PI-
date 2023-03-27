@@ -19,6 +19,9 @@
   }
   
   @media screen and (max-width: 750px) {
+    .select{
+      width: 100px;
+    }
     .select:hover {
       transform: scale(1);
       box-shadow: 0 0 20px #7c5fe4;

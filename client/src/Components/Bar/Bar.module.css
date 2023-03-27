@@ -118,6 +118,7 @@
     }
     .opctionMenu {
       display: none;
+      width: 100%;
     }
     .buttonLogin {
       display: none;
@@ -143,7 +144,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      z-index: 9999;
     }
   
     .normalBar:hover > .opctionMenu {
@@ -161,57 +161,4 @@
     }
   }
   
-  @media screen and (max-width: 450px) {
-    .normalBar {
-      height: 40px;
-      margin-bottom: 10px;
-    }
   
-    .containerSearchBarx {
-      margin-top: 5px;
-      width: 90%;
-    }
-  
-    .opctionMenu {
-      display: none;
-    }
-  
-    .buttonLogin {
-      display: none;
-    }
-  
-    .btn_select {
-      position: absolute;
-      height: 25px;
-      width: 25px;
-      right: 8px;
-      top: 5px;
-    }
-  
-    .submenu {
-      flex-direction: column;
-      margin-top: 5px;
-      margin-bottom: 5px;
-    }
-  
-    .submenu li {
-      margin-top: 5px;
-      margin-bottom: 5px;
-    }
-  
-    .normalBar:hover > .opctionMenu {
-      display: block;
-      background-color: #0e3742;
-      width: 100%;
-      position: relative;
-      margin-top: 5px;
-    }
-  
-    .normalBar:hover > .buttonLogin {
-      background-color: #105e74;
-      position: relative;
-      display: block;
-      width: 90%;
-      margin-top: 5px;
-    }
-  }
