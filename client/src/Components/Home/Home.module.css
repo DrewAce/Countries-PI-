@@ -47,6 +47,13 @@
  
  }
  
+.img {
+  padding-top: 5px;
+  width: 8em;
+  height: 8em;
+
+}
+
  .buttonLogin {
    width: 6em;
    font-size: 1.5em;

@@ -7,6 +7,7 @@ import {getCountries, getActivities} from '../../Redux/actions'
 import styles from "./Home.module.css"
 import Pagination from "../Pagination/Pagination"
 import { useState } from 'react'
+import LoadingGif from "../../img/loadingif2.gif"
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -45,8 +46,8 @@ const Home = () => {
       <h1 className={styles.text}>COUNTRIES</h1> 
       {!countries.length ? (
         <div>
-     
-          <h1 className={styles.countryFail}>Error: Couldn't get the Countries</h1>
+          <img src={LoadingGif} alt="LoadingGif" className={styles.img}></img>
+         
         </div>
       ) : (
         
